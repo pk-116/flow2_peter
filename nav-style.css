@@ -1,0 +1,103 @@
+@charset "UTF-8";
+´
+1/* CSS Document */
+
+/* CSS reset - skal se ens ud i alle browsere */
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#logo {
+	margin: 10px 15px 0px 15px; /* rækkefølge: top, højre, bund, venstre */ 
+	
+	/* dette virker ikke
+vertical-align: top;
+text-align: left;	
+	*/
+}
+/* Classic style */
+#navigation {
+	border-bottom: 1px solid #666;
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	float: right;
+}
+#navigation li {
+	list-style: none;
+	display: inline;
+}
+#navigation a {
+	margin: 1px 15px 0px 15px; /* rækkefølge: top, højre, bund, venstre */
+	font-family: "architects-daughter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	color: #444;
+	border: 1px solid #666;
+	padding: 5px 20px; 
+	background: #FF9933;
+	border-radius: 7px 7px 0 0;
+	display: inline-block;
+	width: 100px;
+	border-bottom: hidden;
+	text-align: center;
+}
+#navigation a:hover {
+	background: #EBEBEB;
+}
+
+h1 {
+	font-family: "architects-daughter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-style: bold;
+	font-weight: 400;
+	font-size: 30px;
+}
+	
+p {
+	color: black;
+	font-family: "architects-daughter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: justify;
+	line-height: 110%;
+	width: 400px;
+	text-size: 20px;
+}
+body {
+	background-color: #eee; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+figure {
+	width: 600px;
+	height: 450px;
+	border: solid;
+	float: right;
+}
+
+/* ID starter med # */
+
+#divkasseA {
+	width: 100%;
+	margin: 15px 15px 15px 15px;
+	float: right;
+}
+
+#kasseA {
+	background: #eee;
+	padding: 40px;
+	border: 5px solid #333;
+	width: 400px;
+	height: 200px;
+	float: right;
+}
+
+#kasseB {
+	background: #eee;
+	padding: 40px;
+	border: 3px solid #333;
+	width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 15px;
+	
+}
